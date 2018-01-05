@@ -11108,7 +11108,7 @@ CREATE TABLE IF NOT EXISTS `llx_user` (
 --
 
 INSERT INTO `llx_user` (`rowid`, `entity`, `ref_ext`, `ref_int`, `employee`, `fk_establishment`, `datec`, `tms`, `fk_user_creat`, `fk_user_modif`, `login`, `pass`, `pass_crypted`, `pass_temp`, `api_key`, `gender`, `civility`, `lastname`, `firstname`, `address`, `zip`, `town`, `fk_state`, `fk_country`, `job`, `skype`, `office_phone`, `office_fax`, `user_mobile`, `email`, `signature`, `admin`, `module_comm`, `module_compta`, `fk_soc`, `fk_socpeople`, `fk_member`, `fk_user`, `note_public`, `note`, `model_pdf`, `datelastlogin`, `datepreviouslogin`, `egroupware_id`, `ldap_sid`, `openid`, `statut`, `photo`, `lang`, `color`, `barcode`, `fk_barcode_type`, `accountancy_code`, `nb_holiday`, `thm`, `tjm`, `salary`, `salaryextra`, `dateemployment`, `weeklyhours`, `import_key`) VALUES
-(1, 0, NULL, NULL, 1, 0, '2017-12-07 10:04:21', '2017-12-07 10:04:21', NULL, NULL, 'admin', NULL, 'ad15becaf23db7f527cc9e7799d2027654501eae', NULL, NULL, '', NULL, 'SuperAdmin', '', '', '', '', NULL, NULL, '', '', '', '', '', '', '', 1, 1, 1, NULL, NULL, NULL, NULL, NULL, '', NULL, '2018-01-05 16:10:35', '2018-01-04 15:33:23', NULL, '', NULL, 1, NULL, NULL, '', NULL, 0, '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+(1, 0, NULL, NULL, 1, 0, '2017-12-07 10:04:21', '2017-12-07 10:04:21', NULL, NULL, 'admin', NULL, '01f0fcb56718e00167f4e35275c6083b3bbf65f7', NULL, NULL, '', NULL, 'SuperAdmin', '', '', '', '', NULL, NULL, '', '', '', '', '', '', '', 1, 1, 1, NULL, NULL, NULL, NULL, NULL, '', NULL, '2018-01-05 16:10:35', '2018-01-04 15:33:23', NULL, '', NULL, 1, NULL, NULL, '', NULL, 0, '', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
