@@ -1,18 +1,18 @@
 {
-    "name": "YunoHost example app",
-    "id": "ynhexample",
+    "name": "Dolibarr",
+    "id": "dolibarr",
     "packaging_format": 1,
     "description": {
-        "en": "Example package for YunoHost application.",
-        "fr": "Exemple de package d’application pour YunoHost."
+        "en": "Dolibarr package for Yunohost",
+        "fr": "Applicaton Dolibarr pour YunoHost."
     },
     "version": "1.0",
-    "url": "https://example.com",
+    "url": "https://github.com/labiloute/example_ynh",
     "license": "free",
     "maintainer": {
-        "name": "John doe",
-        "email": "john.doe@example.com",
-        "url": "http://example.com"
+        "name": "Artifaille",
+        "email": "contact@artifaille.fr",
+        "url": "http://artifaille.fr"
     },
     "requirements": {
         "yunohost": ">= 2.7.2"
@@ -41,8 +41,8 @@
                     "en": "Choose a path for ynhexample",
                     "fr": "Choisissez un chemin pour ynhexample"
                 },
-                "example": "/example",
-                "default": "/example"
+                "example": "/dolibarr",
+                "default": "/dolibarr"
             },
             {
                 "name": "admin",
@@ -51,7 +51,7 @@
                     "en": "Choose an admin user",
                     "fr": "Choisissez l’administrateur"
                 },
-                "example": "johndoe"
+                "example": "GrosMichel"
             },
             {
                 "name": "is_public",
@@ -60,7 +60,7 @@
                     "en": "Is it a public application?",
                     "fr": "Est-ce une application publique ?"
                 },
-                "default": true
+                "default": false
             },
             {
                 "name": "language",
